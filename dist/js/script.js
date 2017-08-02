@@ -12630,9 +12630,13 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-$(document).ready(function() {
+/*$(document).ready(function() {
 	$("#menu-home").click(function(){
         $("#nav-modal").modal();
     });
 	
-});
+});*/
+
+function myFunction(x) {
+    x.classList.toggle("change");
+}
