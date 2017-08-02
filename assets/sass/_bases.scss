@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+background-color: transparent;
+}
+
+.navbar-toggle {
+  float: right !important;
+  margin-right: 15px;
+  margin-left: 0;
+}
+
+.modal-nav-content {
+  width: 100%;
+  height: auto;
+}
+
+.modal-nav-body {
+  margin-top: 100px; 
+}
+
+.modal-nav-body ul {
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  & li{
+  text-align: center;
+  font-size: 130%;
+  padding: 8px;
+  text-transform: uppercase;
+  }
+}
+
+#menu-home.icon-bar{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+section{
+  width: 100%;
+  height: 600px;
+  &#first{
+    background-image: url('../dist/img/fondo-bienvenida.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+}
+
+.jumbotron{
+  background-color: transparent;
+}
