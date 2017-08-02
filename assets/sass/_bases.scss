@@ -7,40 +7,22 @@
   background-color: transparent;
 }
 
-.navbar-toggle {
-  float: right !important;
-  margin-right: 15px;
-  margin-left: 0;
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
 }
 
-.modal-nav-content {
-  width: 100%;
-  height: auto;
+.change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
-.modal-nav-body {
-  margin-top: 100px; 
-}
+.change .bar2 {opacity: 0;}
 
-.modal-nav-body ul {
-  list-style-type: none;
-  color: white;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  & li{
-  text-align: center;
-  font-size: 130%;
-  padding: 8px;
-  text-transform: uppercase;
-  }
-}
-
-#menu-home.icon-bar{
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
 section{
@@ -53,14 +35,24 @@ section{
   }
   &#second{
     background-color: #000;
-    height: 900px;
+    height: 800px;
   } 
   &#third{
-    height: 800px;
+    background-image: url("../img/fondo-about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &#fourth{
+    height: 400px;
   }
 }
 
 .jumbotron{
   background-color: transparent;
+}
+
+img{
+  width: 100%;
+  padding: 0;
 }
 

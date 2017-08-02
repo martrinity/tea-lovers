@@ -6,13 +6,15 @@
 	<link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 <body>
-	<!-- menu -->
-	<nav class="navbar navbar-fixed-top navbar-right">
+	<!-- menu overlay -->
+	<nav class="navbar navbar-fixed-top">
 		<div class="container">
-			<div id="menu-home" class="text-right">
-				<div class="bar1"></div>
-				<div class="bar2"></div>
-				<div class="bar3"></div>
+			<div class="navbar-header navbar-right">
+				<div class="container" onclick="myFunction()">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
 			</div>    
 		</div>
 	</nav>
@@ -49,7 +51,7 @@
 	<section id="second">
 		<div class="videoWrapper text-center">
 			<!-- hidden para mobile -->
-			<iframe src="https://player.vimeo.com/video/148993635?color=c9ff23&title=0&byline=0&portrait=0" width="1200" height="675" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe src="https://player.vimeo.com/video/148993635?color=c9ff23&title=0&byline=0&portrait=0" width="1200" height="675" frameborder="10" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 	</section>
 	<!-- Pasion -->
@@ -91,7 +93,7 @@
 		</div>
 	</section>
 	<section id="fift">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
 					<img src="dist/img/min-video-1-2.jpg" alt="Disfrutando el te">
@@ -119,7 +121,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-12 col-xs-12">
-					<h1>Preguntas sobre el té</h1>					
+					<div class="jumbotron">
+						<h1>Preguntas sobre el té</h1>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -132,6 +136,6 @@
 
 
 
-<script scr="dist/js/script.js"></script>	
+	
 </body>
 </html>
